@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+label {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+.conversao-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    border-width: 1px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#resultado {
+    display: none;
+    color: #000000;
+    margin-top: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
