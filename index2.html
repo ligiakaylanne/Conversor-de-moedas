@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <label for="valorDolar">Digite o valor em dólar:</label>
+        <input type="number" id="valorDolar">
+        
+        <button onclick="converter()" class="conversao-btn">Converter</button>
+
+        <div class="card" id="resultado" style="display:none;">
+            <p>O valor que você digitou foi <span id="valorDigitado"></span> dólares.</p>
+            <p>Esse valor em reais é <span id="valorEmReal"></span> e o valor em euros é <span id="valorEmEuro"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
